@@ -46,7 +46,8 @@ ul {
   box-shadow: 2px 2px 5px #f2f2f2;
 }
 
-nav .btn:hover {
+nav .btn:hover,
+.think button:hover {
   box-shadow: 2px 2px 5px black;
 }
 
@@ -66,7 +67,7 @@ nav .btn:hover {
 }
 
 .container {
-  max-width: 1360px;
+  max-width: 85%;
   margin: 0 auto;
 }
 
@@ -172,9 +173,13 @@ nav ul {
   text-align: center;
 }
 
+.failer-card h3 {
+  text-align: center;
+}
+
 .failer-card {
   height: 300px;
-  max-width: 320px;
+  max-width: 300px;
 
   display: flex;
   flex-direction: column;
@@ -253,4 +258,46 @@ main {
 
 .think button {
   margin-top: 16px;
+}
+
+footer {
+  color: white;
+  background-color: rgba(0, 25, 49, 1);
+  padding-top: 120px;
+  margin-top: 120px;
+}
+
+footer i {
+  color: white;
+  margin-right: 8px;
+}
+
+.footer-text p {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.line {
+  opacity: 0.2;
+}
+
+.footer-container-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  width: 220px;
+}
+
+.social p {
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }

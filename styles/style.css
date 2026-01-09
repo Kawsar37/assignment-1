@@ -35,6 +35,16 @@ ul {
   gap: 10px;
 }
 
+.btn:hover,
+.btn-2:hover {
+  background-color: rgba(5, 62, 206, 0.6);
+  box-shadow: 2px 2px 5px #f2f2f2;
+}
+
+nav .btn:hover {
+  box-shadow: 2px 2px 5px black;
+}
+
 .btn-2 {
   padding: 12px 16px;
   color: white;
@@ -74,6 +84,7 @@ nav ul {
 
 .hero {
   background-image: url("../assets/hero-bg.png");
+  background-size: cover;
   padding: 70px 120px 170px;
 }
 
@@ -117,4 +128,83 @@ nav ul {
   justify-content: space-between;
   gap: 16px;
   margin-top: 16px;
+}
+
+.img-holder {
+  background: rgba(249, 85, 85, 1);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-holder img {
+  height: 32px;
+  width: 32px;
+}
+
+.failer h1 {
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: 44px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.failer > p {
+  text-align: center;
+  margin-bottom: 32px;
+  color: rgba(98, 115, 130, 1);
+}
+
+.failer-card > p {
+  color: rgba(98, 115, 130, 1);
+  text-align: center;
+}
+
+.failer-card {
+  height: 300px;
+  max-width: 320px;
+
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.failer-card-container {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.brain-container {
+  margin: 120px 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+.solution-title {
+  color: rgba(70, 145, 101, 1);
+}
+
+.brain-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+main {
+  background-color: #fbfbfb;
 }

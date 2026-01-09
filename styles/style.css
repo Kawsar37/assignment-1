@@ -15,6 +15,11 @@ a {
   color: black;
 }
 
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
 ul {
   list-style: none;
 }
@@ -215,11 +220,6 @@ main {
   background-color: #fbfbfb;
 }
 
-.solution h1 {
-  font-size: 48px;
-  font-weight: 700;
-}
-
 .solution {
   max-width: 600px;
   display: flex;
@@ -237,5 +237,20 @@ main {
 }
 
 .solution-list ul {
+  margin-top: 16px;
+}
+
+.think {
+  padding: 80px 40px;
+  background-color: rgba(247, 246, 242, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 12px;
+}
+
+.think button {
   margin-top: 16px;
 }

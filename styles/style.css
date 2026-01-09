@@ -260,6 +260,10 @@ main {
   margin-top: 16px;
 }
 
+.think p {
+  text-align: center;
+}
+
 footer {
   color: white;
   background-color: rgba(0, 25, 49, 1);

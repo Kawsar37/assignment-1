@@ -69,6 +69,10 @@ nav .btn:hover {
   color: #30b868;
 }
 
+.off-white {
+  color: rgba(98, 115, 130, 1);
+}
+
 /* Main Styles */
 nav {
   padding: 16px 120px;
@@ -196,15 +200,42 @@ ul li {
 
 .solution-title {
   color: rgba(70, 145, 101, 1);
+  font-weight: 500;
 }
 
 .brain-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   gap: 60px;
 }
 
 main {
   background-color: #fbfbfb;
+}
+
+.solution h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.solution {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.solution-list ul li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.solution-list ul {
+  margin-top: 16px;
 }

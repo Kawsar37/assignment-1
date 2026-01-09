@@ -28,6 +28,35 @@ ul {
   border-radius: 4px;
   border: none;
   cursor: pointer;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-2 {
+  padding: 12px 16px;
+  color: white;
+  background-color: transparent;
+  max-width: max-content;
+  font-weight: 600;
+  border-radius: 4px;
+  border: 1px solid white;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.green {
+  color: #30b868;
 }
 
 /* Main Styles */
@@ -41,4 +70,51 @@ nav {
 nav ul {
   display: flex;
   gap: 32px;
+}
+
+.hero {
+  background-image: url("../assets/hero-bg.png");
+  padding: 70px 120px 170px;
+}
+
+.early-access-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.early-access {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #30b868;
+  background-color: white;
+  max-width: 230px;
+  padding: 12px;
+  border-radius: 1000px;
+  border: none;
+}
+
+.early-access-container h1 {
+  font-size: 72px;
+  font-weight: 700;
+  max-width: 770px;
+  color: white;
+  text-align: center;
+}
+
+.early-access-para {
+  color: white;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  max-width: 680px;
+}
+
+.btn-holder {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 16px;
 }
